@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+    <body>
+        <div id="container">
+            <h1>User Registration Form</h1>
+            <form id="user_form">
+                <fieldset id="fieldset">
+                    <legend>User Information</legend>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email"/>
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname"/>
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname"/>
+
+                    <label for="pw">Password</label>
+                    <input type="password" id="pw">
+                </fieldset>
+                <fieldset id="fieldset2">
+                    <legend>Optional Information</legend>
+
+                    <label for="radio1">Male</label>
+                    <input type="radio" class="radio1">
+
+                    <label for="radio2">Female</label>
+                    <input type="radio" class="radio2">
+
+                    <label for="radio3">Prefer Not to say</label>
+                    <input type="radio" id="radio3" checked/>
+
+                    <label for="birthday">Birthday</label>
+                    <input type="date" id="birthday"/>
+                </fieldset>
+                <input type="checkbox"/><label> I agree to the Terms and Conditions</label> <br>
+                <input type="submit" value="Submit Registration" id="submitButton">
+            </form>
+        </div>
+    </body>
+</html>

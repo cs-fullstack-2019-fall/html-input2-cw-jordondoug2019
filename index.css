@@ -1,0 +1,24 @@
+#container{
+    margin-left: 300px;
+    margin-right:300px
+}
+#user_form{
+   display: block;
+}
+input,label{
+    display: block;
+}
+#fieldset{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#fieldset2{
+    margin-top: 5%;
+}
+.radio{
+    display: inline-block;
+}
+#submitButton:hover{
+    background-color: lightcoral;
+    color: white;
+}
